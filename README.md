@@ -602,3 +602,8 @@ $  sudo ls -l /var/lib/docker/volumes/354d188e0761d82e1e7d9f3d5c6ee644782b7150f5
 ```
 
 ## The EXPOSE Directive
+
+```
+EXPOSE <port>
+docker container run -p <host_port>:<container_port> <image>
+```
